@@ -1,0 +1,19 @@
+.header {
+    background-color: #001D3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px;
+    height: 64px;
+    border-radius: 16px;
+}
+
+.header-logo {
+    color: #FFC300;
+    font-size: 24px;
+    font-weight: 800;
+}
+.header-itens ul {
+    display: flex;
+    gap: 16px;
+}
