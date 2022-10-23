@@ -1,0 +1,47 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 450px; */
+    align-items: center;
+}
+
+.about h1{
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about-social {
+    margin-top: 44px;
+    display: flex;
+    gap: 16px;
+}
+
+.about-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    text-align: end;
+}
+
+.about-links--contact {
+    border: 1px solid #FFC300;
+    padding: 15px;
+    border-radius: 16px;
+    
+}
+
+.about-links a {
+    color: #FFD60A;
+}
+.fa-whatsapp{
+    color: #FFC300;
+}
+
+section {
+    margin-bottom: 150px;
+}

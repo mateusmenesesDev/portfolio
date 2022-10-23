@@ -1,0 +1,39 @@
+.experience, .experience-years, .experience-jobs {
+    display: flex;
+}
+
+.experience {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.experience-years {
+    gap: 80px;
+    text-align: center;
+    
+}
+
+.experience-years--border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #FFC300;
+    padding: 40px;
+    border-radius: 16px;
+}
+.experience-jobs {
+    gap: 120px;
+}
+
+.experience-years--main {
+    font-size: 32px;
+}
+
+.experience-years--secondary {
+    font-size: 16px;
+}
+
+.experience i {
+    color: #FFC300;
+}
