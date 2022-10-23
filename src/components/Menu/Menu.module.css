@@ -4,9 +4,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 23px;
+    margin: 0 140px;
     margin-bottom: 100px;
     height: 64px;
     border-radius: 16px;
+    
 }
 
 .header-logo {

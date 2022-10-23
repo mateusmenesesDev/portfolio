@@ -1,4 +1,5 @@
 import style from './About.module.css'
+import { AboutMe } from './AboutMe'
 import { Experience } from './Experience'
 
 export function About(){
@@ -19,6 +20,7 @@ export function About(){
                 </div>
             </section>
             <Experience/>
+            <AboutMe/>
         </div>
     )
 }

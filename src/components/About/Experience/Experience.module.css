@@ -3,10 +3,12 @@
 }
 
 .experience {
+    border-top: 1px solid #001D3D;
+    border-bottom: 1px solid #001D3D;
+    padding: 100px 498px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 920px;
     margin: auto;
     gap: 32px;
 }
@@ -34,21 +36,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #003566;
+    background-color: #001D3D;
     padding: 40px;
     border-radius: 16px;
 }
 
 .experience-jobs {
-    padding: 27px 0;
-    justify-content: center;
+    padding: 27px 20px;
+    justify-content: space-evenly;
     border-radius: 16px;
-    gap: 120px;
+    gap: 90px;
     background-color: #001D3D;
-    width: 100%;
-    
+    width: 900px;
 }
-
+.experience-jobs div{
+    margin-left: 70px;
+}
 .experience-years--main {
     font-size: 32px;
 }
