@@ -4,26 +4,49 @@
 
 .experience {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    max-width: 920px;
+    margin: auto;
     gap: 32px;
 }
 
 .experience-years {
     gap: 80px;
+    justify-content: center;
     text-align: center;
-    
 }
 
 .experience-years--border {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 1px solid #FFC300;
+    padding: 40px;
+    width: 250px;
+    border-radius: 16px;
+}
+
+.experience-years--noborder {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003566;
     padding: 40px;
     border-radius: 16px;
 }
+
 .experience-jobs {
+    padding: 27px 0;
+    justify-content: center;
+    border-radius: 16px;
     gap: 120px;
+    background-color: #001D3D;
+    width: 100%;
+    
 }
 
 .experience-years--main {
@@ -36,4 +59,22 @@
 
 .experience i {
     color: #FFC300;
+}
+
+.experience i .main {
+    color: red;
+}
+
+.experience-jobs div {
+
+    color: #FFD60A;
+    text-align: center;
+}
+.experience-jobs--secondary {
+    font-size: 16px;
+}
+
+.experience-jobs--main {
+    font-size: 32px;
+    font-weight: 800;
 }
