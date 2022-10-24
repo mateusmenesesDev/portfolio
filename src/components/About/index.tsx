@@ -10,8 +10,12 @@ export function About(){
                     <h1>Mateus Meneses</h1>
                     <p>Front-end developer | Gestor em T.I</p>
                     <div className={style['about-social']}>
-                        <i className="fa-brands fa-github fa-2xl"></i>
-                        <i className="fa-brands fa-linkedin fa-2xl"></i>
+                        <a href="https://github.com/mateusmenesesDev" target='_blank'>
+                            <i className="fa-brands fa-github fa-2xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mateus-meneses/" target='_blank'>
+                            <i className="fa-brands fa-linkedin fa-2xl"></i>
+                        </a>
                     </div>
                 </div>
                 <div className={style['about-links']}>

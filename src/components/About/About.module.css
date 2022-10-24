@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 140px;
+    justify-content: center;
+    gap: 300px;
 }
 
 .about h1{
