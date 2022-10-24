@@ -8,9 +8,9 @@ export function Portfolio(){
             <div className={style['portfolio-header']}>
                 <h2>Trabalhos e projetos</h2>
                 <div className={style['portfolio-header--filters']}>
-                    <Badge fill>Front End</Badge>
-                    <Badge>Fullstack</Badge>
-                    <Badge>Back End</Badge>
+                    <Badge fill pointer>Front End</Badge>
+                    <Badge pointer>Fullstack</Badge>
+                    <Badge pointer>Back End</Badge>
                 </div>
             </div>
             <div className={style['portfolio-cards']}>
