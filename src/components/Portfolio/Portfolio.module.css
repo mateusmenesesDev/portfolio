@@ -1,0 +1,23 @@
+.portfolio {
+    padding: 0 140px;
+    margin-top: 140px;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.portfolio-header--filters{
+    display: flex;
+    gap: 32px;
+}
+
+.portfolio-cards {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}

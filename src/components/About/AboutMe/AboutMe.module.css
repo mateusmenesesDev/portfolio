@@ -1,7 +1,7 @@
 .aboutMe{
     display: flex;
     padding: 0 140px;
-    margin: 140px 0;
+    margin-top: 140px;
     gap: 250px;
 }
 

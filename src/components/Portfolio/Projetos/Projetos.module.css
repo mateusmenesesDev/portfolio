@@ -1,0 +1,26 @@
+.projeto {
+    max-width: 360px;
+    padding: 30px;
+    border: 1px solid #FFC300;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.projeto h3{
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+
+.projeto p {
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+.projeto-img {
+    margin-top: 40px;
+    max-width: 300px;
+}
+
+.projeto-img img{
+    width: 100%;
+}

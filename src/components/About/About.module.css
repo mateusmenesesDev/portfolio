@@ -5,6 +5,7 @@
     padding: 0 140px;
     justify-content: center;
     gap: 300px;
+    margin-bottom: 150px;
 }
 
 .about h1{
@@ -42,8 +43,4 @@
 }
 .fa-whatsapp{
     color: #FFC300;
-}
-
-section {
-    margin-bottom: 150px;
 }
