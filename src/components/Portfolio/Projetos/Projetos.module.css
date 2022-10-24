@@ -24,3 +24,8 @@
 .projeto-img img{
     width: 100%;
 }
+
+.projeto .badges {
+    display: flex;
+    gap: 10px;
+}
