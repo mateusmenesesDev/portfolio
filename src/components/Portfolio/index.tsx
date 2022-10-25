@@ -10,17 +10,13 @@ export function Portfolio(){
     const[projetos, setProjetos] = useState<IProjetos[]|[]>([])
     async function loadProjects(){
         const response:IProjetos[] = await apiGitHub.listRepo()
-        
         setProjetos([...response])
         
     }
     useEffect(()=>{
-        // console.log('1', projetos)
         loadProjects()
-        // console.log('2', projetos)
     },[])
-   
-    console.log(projetos)
+    // console.log(projetos)
     return (
         <section className={style.portfolio}>
             <Badge fill>Portfólio</Badge>

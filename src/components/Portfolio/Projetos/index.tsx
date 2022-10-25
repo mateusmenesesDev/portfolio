@@ -5,15 +5,15 @@ import style from './Projetos.module.css'
 export function Projetos({name, description, topics, html_url, homepage}:IProjetos){
     return (
         <div className={style.projeto}>
-            <h3>{name}</h3>
+            <h3>{name.toUpperCase()}</h3>
             <p>{description}</p>
             <div className={style.badges}>
                 {topics.map(topic=>(
-                    <Badge>{topic}</Badge>
+                    <Badge size="14px">{topic}</Badge>
                 ))}
             </div>
             <div className={style['projeto-img']}>
-                <img src="/assets/image/perfil.jpeg" alt="" />
+                <img src={`https://raw.githubusercontent.com/mateusmenesesDev/${name}/main/preview/preview.png`} alt="" />
             </div>
             <div className={style['projeto-button']}>
                 <a href={homepage} target="_blank">Acessar Projeto</a>

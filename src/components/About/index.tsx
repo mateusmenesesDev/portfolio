@@ -5,6 +5,7 @@ import { Experience } from './Experience'
 export function About(){
     return (
         <div>
+            
             <section className={style.about}>
                 <div>
                     <h1>Mateus Meneses</h1>
@@ -23,6 +24,7 @@ export function About(){
                     <a href="" className={style['about-links--contact']}><i className="fa-brands fa-whatsapp"></i> Entrar em contato</a>
                 </div>
             </section>
+            <div className="github-card" data-user="mateusmenesesDev"></div>
             <Experience/>
             <AboutMe/>
         </div>

@@ -6,4 +6,5 @@ export interface IProjetos {
     homepage: string,
     html_url: string
     topics: []
+    imagePreview?: string
 }

@@ -17,8 +17,8 @@
 
 .portfolio-cards {
     display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 360px);
+    gap: 30px;
 }
 
