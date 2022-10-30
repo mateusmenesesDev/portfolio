@@ -11,12 +11,14 @@ export function Projetos({
 }: IProjetos) {
   return (
     <div className={style.projeto}>
-      <h3>{name.toUpperCase()}</h3>
-      <p>{description}</p>
-      <div className={style.badges}>
-        {topics.map((topic) => (
-          <Badge size="14px">{topic}</Badge>
-        ))}
+      <div className={style['projeto-header']}>
+        <h3>{name.toUpperCase()}</h3>
+        <p>{description}</p>
+        <div className={style.badges}>
+          {topics.map((topic) => (
+            <Badge size="14px">{topic}</Badge>
+          ))}
+        </div>
       </div>
       <div className={style["projeto-img"]}>
         <img

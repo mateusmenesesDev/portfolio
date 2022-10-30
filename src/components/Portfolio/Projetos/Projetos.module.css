@@ -10,6 +10,10 @@
             inset -17px -17px 34px #002651;
 }
 
+.projeto-header {
+  /* background-color: red; */
+  height: 170px;
+}
 .projeto h3 {
   margin-bottom: 9px;
   font-size: 20px;
@@ -18,11 +22,9 @@
 .projeto p {
   margin-bottom: 32px;
   font-size: 14px;
-  height: 40px;
 }
 
 .projeto-img {
-  margin-top: 20px;
   max-width: 300px;
   min-height: 200px;
   max-height: 200px;
@@ -40,7 +42,6 @@
 .projeto .badges {
   display: flex;
   gap: 10px;
-  width: 100%;
   overflow: auto;
 }
 
