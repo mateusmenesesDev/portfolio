@@ -27,4 +27,4 @@ yarn-error.log*
 access.ts
 # Local Netlify folder
 .netlify
-/functions
+.env
