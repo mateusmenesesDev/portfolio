@@ -12,13 +12,17 @@ export function Projetos({
   return (
     <div className={style.projeto}>
       <div className={style['projeto-header']}>
-        <h3>{name.toUpperCase()}</h3>
-        <p>{description}</p>
-        <div className={style.badges}>
-          {topics.map((topic) => (
-            <Badge size="14px">{topic}</Badge>
-          ))}
+        <div className={style['projeto-header--desc']}>
+          <h3>{name.toUpperCase()}</h3>
+          <p>{description}</p>
         </div>
+        <ul className={style.badges}>
+          {topics.map((topic) => (
+            <li>
+              <Badge size="14px">{topic}</Badge>
+            </li>
+          ))}
+        </ul>
       </div>
       <div className={style["projeto-img"]}>
         <img
