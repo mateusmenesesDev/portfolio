@@ -21,15 +21,15 @@ export function Projetos({
       <div className={style["projeto-img"]}>
         <img
           src={`https://raw.githubusercontent.com/mateusmenesesDev/${name}/main/preview/preview.png`}
-          alt=""
+          alt="Imagem do Projeto"
         />
       </div>
       <div className={style["projeto-button"]}>
-        <a href={homepage} target="_blank">
-          Acessar Projeto
+        <a href={homepage} target="_blank" rel="noreferrer" className={style.button}>
+          Projeto
         </a>
-        <a href={html_url} target="_blank">
-          Acessar Repositório
+        <a href={html_url} target="_blank" rel="noreferrer" className={style.button}>
+          Repositório
         </a>
       </div>
     </div>
