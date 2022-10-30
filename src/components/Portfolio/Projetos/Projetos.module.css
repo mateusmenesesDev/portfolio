@@ -1,8 +1,13 @@
 .projeto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 30px;
-  border: 1px solid #ffc300;
-  border-radius: 16px;
   margin-bottom: 50px;
+  border-radius: 16px;
+  background: #003566;
+  box-shadow: inset 17px 17px 34px #001429,
+            inset -17px -17px 34px #002651;
 }
 
 .projeto h3 {
@@ -13,16 +18,23 @@
 .projeto p {
   margin-bottom: 32px;
   font-size: 14px;
+  height: 40px;
 }
 
 .projeto-img {
   margin-top: 20px;
   max-width: 300px;
+  min-height: 200px;
+  max-height: 200px;
 }
 
 .projeto-img img {
   width: 100%;
+  height: 100%;
   border-radius: 16px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
 }
 
 .projeto .badges {
@@ -30,4 +42,34 @@
   gap: 10px;
   width: 100%;
   overflow: auto;
+}
+
+.projeto-button {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projeto-button .button {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  color: white;
+  font-family: Brush Script MT;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #001D3D;
+  -webkit-box-shadow: 1px 1px 5px 0 #000000;
+  -moz-box-shadow: 1px 1px 5px 0 #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #FFC300;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  text-decoration: none;
 }
