@@ -1,22 +1,27 @@
 .aboutMe{
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0 140px;
     margin-top: 140px;
-    gap: 250px;
+    gap: 150px;
 }
 
 .aboutMe-photo{
-    width: 454px;
-    height: 454px;
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .aboutMe-photo img{
     width: 100%;
+    min-width: 250px;
     border-radius: 50%;
 }
 
 .aboutMe-name {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 800;
     margin: 24px 0;
 }

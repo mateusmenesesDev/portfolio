@@ -1,9 +1,10 @@
 .about {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 0 140px;
+    justify-content: center;
+    gap: 300px;
     margin-bottom: 150px;
 }
 
@@ -34,6 +35,7 @@
     border: 1px solid #FFC300;
     padding: 15px;
     border-radius: 16px;
+    
 }
 
 .about-links a {
