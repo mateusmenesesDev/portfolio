@@ -6,7 +6,7 @@ export function About(){
     return (
         <div>
             
-            <section className={style.about}>
+            <section id='home' className={style.about}>
                 <div>
                     <h1>Mateus Meneses</h1>
                     <p>Front-end developer | Gestor em T.I</p>

@@ -19,7 +19,7 @@ export function Portfolio() {
   }, []);
 
   return (
-    <section className={style.portfolio}>
+    <section id="portfolio" className={style.portfolio}>
       <Badge fill>Portfólio</Badge>
       <div className={style["portfolio-header"]}>
         <h2>Trabalhos e projetos</h2>
@@ -32,7 +32,8 @@ export function Portfolio() {
         </div>
       </div>
       <div className={style["portfolio-cards"]}>
-        {projetos.map((projeto) => (
+        {projetos.map(projeto=>(
+          projeto.name.toUpperCase() !== 'MATEUSMENESESDEV' && 
           <Projetos
             homepage={projeto.homepage}
             id={projeto.id}

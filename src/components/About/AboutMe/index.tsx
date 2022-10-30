@@ -3,7 +3,7 @@ import style from './AboutMe.module.css'
 
 export function AboutMe(){
     return (
-        <section className={style.aboutMe}>
+        <section id='about-me' className={style.aboutMe}>
             <div className={style['aboutMe-photo']}>
                 <img src="/assets/image/perfil.jpeg" alt="" />
             </div>

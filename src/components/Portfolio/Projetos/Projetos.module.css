@@ -5,7 +5,6 @@
   padding: 30px;
   margin-bottom: 50px;
   border-radius: 16px;
-  /* border: 1px solid #ffc300; */
   background: #003566;
   box-shadow: inset 17px 17px 34px #001429,
             inset -17px -17px 34px #002651;
@@ -50,28 +49,25 @@
   display: flex;
   justify-content: space-around;
 }
+
 .projeto-button .button {
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    border-radius: 16px;
-    color: black;
-    font-family: Brush Script MT;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 10px;
-    background-color: #FFD60A;
-    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-    -moz-box-shadow: 1px 1px 20px 0 #000000;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 1px 1px 20px #000000;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  color: white;
+  font-family: Brush Script MT;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #001D3D;
+  -webkit-box-shadow: 1px 1px 5px 0 #000000;
+  -moz-box-shadow: 1px 1px 5px 0 #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
+  transition: 0.3s;
 }
+
 .button:hover {
   background: #FFC300;
-  border: solid #FFFFFF 1px;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   border-radius: 16px;
