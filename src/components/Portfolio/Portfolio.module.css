@@ -18,6 +18,6 @@
 .portfolio-cards {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 360px);
+  grid-template-columns: repeat(auto-fill, 340px);
   gap: 30px;
 }

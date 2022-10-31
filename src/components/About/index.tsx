@@ -1,5 +1,6 @@
 import style from './About.module.css'
 import { AboutMe } from './AboutMe'
+import { Card } from './Card'
 import { Experience } from './Experience'
 
 export function About(){
@@ -20,11 +21,10 @@ export function About(){
                     </div>
                 </div>
                 <div className={style['about-links']}>
-                    <a href="">Baixar CV <i className="fa-regular fa-circle-down"></i></a>
-                    <a href="" className={style['about-links--contact']}><i className="fa-brands fa-whatsapp"></i> Entrar em contato</a>
+                    <a href="/assets/download/Currículo.pdf" download='Currículo Mateus Meneses'>Baixar CV <i className="fa-regular fa-circle-down"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5579999320778" target='_blank' className={style['about-links--contact']}><i className="fa-brands fa-whatsapp"></i> Entrar em contato</a>
                 </div>
             </section>
-            <div className="github-card" data-user="mateusmenesesDev"></div>
             <Experience/>
             <AboutMe/>
         </div>
