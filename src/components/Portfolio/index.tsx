@@ -21,7 +21,9 @@ export function Portfolio() {
 
   return (
     <section id="portfolio" className={style.portfolio}>
-      <Badge fill>Portfólio</Badge>
+      <div className={style['portfolio-badges']}>
+        <Badge fill>Portfólio</Badge>
+      </div>
       <div className={style["portfolio-header"]}>
         <h2>Trabalhos e projetos</h2>
         <div className={style["portfolio-header--filters"]}>

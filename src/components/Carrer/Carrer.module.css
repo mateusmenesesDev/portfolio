@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.carrer {
+    margin-top: 80px;
+    padding: 0 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experiences {
+    margin-top: 64px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.experiences-type h4 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.experiences-box {
+    margin-top: 65px;
+    padding: 30px;
+    background-color: #001D3D;
+    border-radius: 16px;
+    max-width: 580px;
+    max-height: 220px;
+}
+
+.experiences-box:hover {
+    background-color: #003566;
+    border: 1px solid #FFC300;
+}
+
+.experiences-box p {
+    margin-top: 9px;
+    margin-bottom: 16px;
+}
+
+.experiences-box--details {
+    display: flex;
+    justify-content: space-between;
+}

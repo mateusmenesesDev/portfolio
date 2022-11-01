@@ -3,12 +3,17 @@
   margin-top: 140px;
 }
 
+.portfolio-badges{
+  padding: 0 140px;
+}
 .portfolio-header {
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 100px;
+  padding: 0 140px;
 }
+
 
 .portfolio-header--filters {
   display: flex;

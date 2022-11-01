@@ -35,11 +35,22 @@
     border: 1px solid #FFC300;
     padding: 15px;
     border-radius: 16px;
-    
+}
+
+.about-links--contact:hover {
+    background-color: #FFC300;
+    color: black;
 }
 
 .about-links a {
     color: #FFD60A;
+}
+
+.about-links a:hover {
+    background-color: #FFC300;
+    color: black;
+    padding: 10px;
+    border-radius: 16px;
 }
 .fa-whatsapp{
     color: #FFC300;
