@@ -35,18 +35,6 @@ export function Portfolio() {
         </div>
       </div>
       <div className={style["portfolio-cards"]}>
-        {/* {projetos.map(projeto=>(
-          projeto.name.toUpperCase() !== 'MATEUSMENESESDEV' && 
-          <Projetos
-            homepage={projeto.homepage}
-            id={projeto.id}
-            name={projeto.name}
-            description={projeto.description}
-            url={projeto.url}
-            topics={projeto.topics}
-            html_url={projeto.html_url}
-          />
-        ))} */}
         <Carousel projetos = {projetos}/>
       </div>
     </section>
