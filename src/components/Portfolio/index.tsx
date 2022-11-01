@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { IProjetos } from "../../types/types";
 import { Badge } from "../Badge";
+import { Carousel } from "../Carousel";
 import style from "./Portfolio.module.css";
 import { Projetos } from "./Projetos";
 
@@ -46,5 +47,6 @@ export function Portfolio() {
         ))}
       </div>
     </section>
+    
   );
 }

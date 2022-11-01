@@ -8,7 +8,6 @@
     margin-bottom: 100px;
     height: 64px;
     border-radius: 16px;
-    
 }
 
 .header-logo {
@@ -19,4 +18,15 @@
 .header-itens ul {
     display: flex;
     gap: 16px;
+}
+
+.header-itens ul a:hover{
+    border-bottom: 2px solid #FFC300;
+}
+
+@media (max-width:1024px){
+    .header {
+        margin: 0 50px;
+        margin-bottom: 100px;
+    }
 }
