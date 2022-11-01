@@ -23,3 +23,10 @@
 .header-itens ul a:hover{
     border-bottom: 2px solid #FFC300;
 }
+
+@media (max-width:1024px){
+    .header {
+        margin: 0 50px;
+        margin-bottom: 100px;
+    }
+}
