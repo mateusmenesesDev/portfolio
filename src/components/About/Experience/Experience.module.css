@@ -85,3 +85,28 @@
 .experience-jobs--three {
     flex: 1;
 }
+
+@media (max-width: 768px) {
+    .experience {
+        border: none;
+        padding: 0;
+        /* margin-top: 0; */
+    }
+    .experience-jobs {
+        display: none;
+    }
+
+    .experience-years {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .experience-years--main {
+        font-size: 25px;
+    }
+
+    .experience-years--secondary {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
