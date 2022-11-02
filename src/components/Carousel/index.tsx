@@ -12,8 +12,9 @@ interface props {
 export function Carousel({projetos}:props) {
     return (
         <div className={style.carousel}>
+                {}
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={4}
                     slidesPerGroup={1}
                     spaceBetween={20}
                     loop={true}
