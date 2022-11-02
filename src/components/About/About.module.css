@@ -35,6 +35,7 @@
     border: 1px solid #FFC300;
     padding: 15px;
     border-radius: 16px;
+    width: 200px;
 }
 
 .about-links--contact:hover {

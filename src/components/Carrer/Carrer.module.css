@@ -3,46 +3,75 @@
 }
 .carrer {
     margin-top: 80px;
-    padding: 0 140px;
+    padding: 0 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+.carrer-desc {
+    margin-top: 24px;
+}
 .experiences {
     margin-top: 64px;
-    display: flex;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
-    justify-content: space-around;
     gap: 20px;
-    /* flex-wrap: wrap; */
 }
 
-.experiences-type h4 {
+.experiences-type--desc h4 {
     font-size: 32px;
     margin-bottom: 8px;
 }
 
+.experiences-type--desc {
+    text-align: center;
+}
+
 .experiences-box {
+    margin: 0 auto;
     margin-top: 65px;
     padding: 30px;
     background-color: #001D3D;
     border-radius: 16px;
     max-width: 580px;
-    max-height: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+@media (max-width: 1024px) {
+    .experiences-box {
+        height: 300px;
+    }
+}
 .experiences-box:hover {
     background-color: #003566;
     border: 1px solid #FFC300;
 }
 
+.experiences-box > p{
+    color: #CCC;
+    min-height: 110px;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
 .experiences-box p {
     margin-top: 9px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
 
 .experiences-box--details {
     display: flex;
     justify-content: space-between;
 }
+
+.experiences-box--date {
+    color: #FFD60A;
+}
+
