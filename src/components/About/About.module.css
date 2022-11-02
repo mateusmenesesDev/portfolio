@@ -87,6 +87,7 @@
 
     .about-social {
         order: 1;
+        margin: 0;
     }
 
     .about h1{
