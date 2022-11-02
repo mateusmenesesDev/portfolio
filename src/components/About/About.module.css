@@ -17,6 +17,10 @@
     font-size: 20px;
 }
 
+.about-desc {
+    display: flex;
+    flex-direction: column;
+}
 .about-social {
     margin-top: 44px;
     display: flex;
@@ -55,4 +59,46 @@
 }
 .fa-whatsapp{
     color: #FFC300;
+}
+
+@media (max-width:1023px) {
+    .about {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        margin-bottom: 60px;
+    }
+    .about-desc {
+        /* order: 2; */
+        justify-content: center;
+        gap: 10px;
+    }
+    .about-links {
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .about-links--contact {
+        padding: 12px 10px;
+        border-radius: 16px;
+        font-size: 15px;
+        width: none;
+    }
+
+    .about-social {
+        order: 1;
+    }
+
+    .about h1{
+        order: 2;
+        font-size: 48px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    .about p {
+        order: 3;
+        font-size: 18px;
+    }
+
 }
