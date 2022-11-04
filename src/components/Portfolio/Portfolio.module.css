@@ -3,12 +3,17 @@
   margin-top: 140px;
 }
 
+.portfolio-badges{
+  padding: 0 140px;
+}
 .portfolio-header {
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 100px;
+  padding: 0 140px;
 }
+
 
 .portfolio-header--filters {
   display: flex;
@@ -40,12 +45,16 @@ grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width),
 grid-gap: var(--grid-layout-gap); */ 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .portfolio {
-    padding: 0 50px;
+    padding: 0;
+    margin-top: 70px;
   }
-  .portfolio-cards {
-    grid-template-columns: repeat(auto-fill, 290px);
-    gap: 20px;
+  .portfolio-badges{
+    padding: 0;
+  }
+  .portfolio-header {
+    padding: 0;
+    font-size: 24px;
   }
 }

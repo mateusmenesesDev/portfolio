@@ -21,15 +21,15 @@ export function Experience(){
                     </div>
                 </div>
                 <div className={style['experience-jobs']}>
-                    <div>
+                    <div className={style['experience-jobs--one']}>
                         <p className={style['experience-jobs--secondary']}>Gestor em</p>
                         <p className={style['experience-jobs--main']}>T.I</p>
                     </div>
-                    <div>
+                    <div className={style['experience-jobs--two']}>
                         <p className={style['experience-jobs--secondary']}>Participação como P.O em diversos</p>
                         <p className={style['experience-jobs--main']}>Projetos</p>
                     </div>
-                    <div>
+                    <div className={style['experience-jobs--three']}>
                         <p className={style['experience-jobs--secondary']}>Diversas ferramentas</p>
                         <p className={style['experience-jobs--main']}>AGILE</p>
                     </div>

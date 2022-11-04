@@ -6,9 +6,8 @@ import { Experience } from './Experience'
 export function About(){
     return (
         <div>
-            
             <section id='home' className={style.about}>
-                <div>
+                <div className={style['about-desc']}>
                     <h1>Mateus Meneses</h1>
                     <p>Front-end developer | Gestor em T.I</p>
                     <div className={style['about-social']}>
