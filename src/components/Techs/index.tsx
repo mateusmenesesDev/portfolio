@@ -39,8 +39,7 @@ export function Techs(){
                         
                     </div>
                 </div>
-            </div>
-            
+            </div>  
         </section>
     )
 }

@@ -12,7 +12,7 @@
 .carrer-desc {
     margin-top: 24px;
 }
-.experiences {
+.carrer-content {
     margin-top: 64px;
     display: grid;
     justify-content: space-between;
@@ -43,11 +43,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
-    .experiences-box {
-        height: 300px;
-    }
-}
+
 .experiences-box:hover {
     background-color: #003566;
     border: 1px solid #FFC300;
@@ -75,3 +71,33 @@
     color: #FFD60A;
 }
 
+
+
+@media (max-width: 768px) {
+
+    .carrer {
+        padding: 0;
+        margin-top: 45px;
+    }
+    .carrer-content {
+        padding: 0;
+        grid-template-columns: 1fr;
+        margin-top: 24px;
+        /* overflow: hidden; */
+    }
+
+    .experience {
+        width: 100vw;
+    }
+    .experiences-box {
+        height: auto;
+        min-width: 90%;
+        margin-top: 25px;
+    }
+
+    .experiences {
+        overflow: auto;
+        display: flex;
+        gap: 14px;
+    }
+}
