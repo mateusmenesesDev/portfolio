@@ -24,14 +24,14 @@
     border-bottom: 2px solid #FFC300;
 }
 
-@media (max-width:1024px){
+@media (max-width:1023px){
     .header {
         margin: 0 50px;
         margin-bottom: 100px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:1023px) {
     .header {
         display: none;
     }

@@ -10,11 +10,11 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 32px;
+    gap: 22px;
 }
 
 .experience-years {
-    gap: 80px;
+    gap: 40px;
     justify-content: center;
     text-align: center;
 }
@@ -26,12 +26,12 @@
     align-items: center;
     border: 1px solid #FFC300;
     padding: 40px;
-    width: 250px;
+    max-width: 250px;
     border-radius: 16px;
 }
 
 .experience-years--noborder {
-    width: 250px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,12 +45,12 @@
     padding: 27px 20px;
     justify-content: space-evenly;
     border-radius: 16px;
-    gap: 90px;
+    gap: 150px;
     background-color: #001D3D;
-    width: 900px;
+    max-width: 900px;
 }
 .experience-years--main {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .experience-years--secondary {
@@ -86,7 +86,10 @@
     flex: 1;
 }
 
-@media (max-width: 768px) {
+.experience-years--main {
+    margin: 0 20px;
+}
+@media (max-width: 1023px) {
     .experience {
         border: none;
         padding: 0;
@@ -98,7 +101,7 @@
 
     .experience-years {
         flex-direction: column;
-        gap: 32px;
+        gap: 22px;
     }
 
     .experience-years--main {

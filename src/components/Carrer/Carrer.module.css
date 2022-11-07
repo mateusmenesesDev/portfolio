@@ -37,12 +37,11 @@
     background-color: #001D3D;
     border-radius: 16px;
     max-width: 580px;
-    height: 250px;
+    height: 290px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .experiences-box:hover {
     background-color: #003566;
@@ -73,7 +72,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
 
     .carrer {
         padding: 0;

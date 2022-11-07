@@ -57,4 +57,12 @@ grid-gap: var(--grid-layout-gap); */
     padding: 0;
     font-size: 24px;
   }
+
+  .portfolio-cards {
+    display: flex;
+    overflow: scroll;
+    justify-content: start;
+    min-width: 100%;
+  }
+  
 }
