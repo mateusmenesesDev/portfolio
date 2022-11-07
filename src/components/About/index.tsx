@@ -1,6 +1,5 @@
 import style from './About.module.css'
 import { AboutMe } from './AboutMe'
-import { Card } from './Card'
 import { Experience } from './Experience'
 
 export function About(){
