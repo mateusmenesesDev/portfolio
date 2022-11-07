@@ -83,3 +83,9 @@
   border-radius: 8px;
   text-decoration: none;
 }
+
+@media (max-width:768px) {
+  .projeto {
+    width: 100%;
+  }
+}
