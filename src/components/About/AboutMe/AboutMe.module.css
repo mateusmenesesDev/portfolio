@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
     .aboutMe {
-        padding: 0;
+        padding: 20px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
