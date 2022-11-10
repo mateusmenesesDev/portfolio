@@ -70,7 +70,7 @@ export function Carrer() {
                     </div>
                     <div className={style['experiences']}>
                         <div className={style['experiences-box']}>
-                            <h3>Técnico da Manutenção e Suporte a Informática<br/>Instituto Federal de Sergipe</h3>
+                            <h3>Técnico de Manutenção e Suporte a Informática<br/>Instituto Federal de Sergipe</h3>
                             <p>Realizar manutenção preventiva e corretiva de equipamentos de informática,
                                     identificando os principais componentes de um computador e suas funcionalidades.
                                     Identificar as arquiteturas de rede e analisa meios físicos, dispositivos e padrões de comunicação.</p>

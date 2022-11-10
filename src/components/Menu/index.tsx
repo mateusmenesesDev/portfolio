@@ -11,8 +11,6 @@ export function Menu(){
                     <a href="#portfolio"><li>Portfólio</li></a>
                     <a href="#skills"><li>Skills</li></a>
                     <a href="#carrer"><li>Carreira</li></a>
-                    <a href="#recomendacao"><li>Recomendações</li></a>
-                    <a href="#contact"><li>Contato</li></a>
                 </ul>
             </div>
         </header>

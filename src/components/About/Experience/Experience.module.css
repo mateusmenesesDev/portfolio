@@ -92,7 +92,7 @@
 @media (max-width: 1023px) {
     .experience {
         border: none;
-        padding: 0;
+        padding: 20px;
         /* margin-top: 0; */
     }
     .experience-jobs {

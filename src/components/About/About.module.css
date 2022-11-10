@@ -65,7 +65,7 @@
     .about {
         flex-direction: column;
         gap: 20px;
-        padding: 0;
+        padding: 20px;
         margin-bottom: 60px;
     }
     .about-desc {

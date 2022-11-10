@@ -47,7 +47,7 @@ grid-gap: var(--grid-layout-gap); */
 
 @media (max-width: 768px) {
   .portfolio {
-    padding: 0;
+    padding: 20px;
     margin-top: 70px;
   }
   .portfolio-badges{
