@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 15px;
+    text-align: center;
 }
 .social {
     display: flex;
