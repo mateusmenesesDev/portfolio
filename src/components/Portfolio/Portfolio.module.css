@@ -1,11 +1,11 @@
 .portfolio {
-  /* padding: 0 140px; */
   margin-top: 140px;
 }
 
 .portfolio-badges{
   padding: 0 140px;
 }
+
 .portfolio-header {
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,6 @@
   margin-bottom: 50px; 
   padding: 0 140px;
 }
-
 
 .portfolio-header--filters {
   display: flex;
@@ -25,11 +24,27 @@
     padding: 20px;
     margin-top: 70px;
   }
+
   .portfolio-badges{
     padding: 0;
   }
+
   .portfolio-header {
     padding: 0;
     font-size: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .portfolio-badges{
+    margin-left: 20px;
+  }
+
+  .portfolio-header {
+    margin-left: 20px;
+  }
+
+  .portfolio {
+    padding: 0;
   }
 }

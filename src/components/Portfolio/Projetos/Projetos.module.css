@@ -66,3 +66,31 @@
 .projeto-details--right {
   max-width: 500px;
 }
+
+@media (max-width:425px) {
+  .projeto {
+    width: 100%;
+  }
+  
+  .projeto-details {
+    display: none;
+  }
+
+  .projeto-img {
+    margin-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .projeto-img img {
+    border-radius: 32px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .projeto-buttons a {
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-top: 15px;
+  }
+}
