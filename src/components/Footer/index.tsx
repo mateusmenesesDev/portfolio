@@ -7,10 +7,10 @@ export function Footer() {
         <footer className={style.footer}>
             <p>Desenvolvido por: <strong>Mateus Meneses</strong></p>
             <div className={style.social}>
-                <a href="">
+                <a href='https://www.linkedin.com/in/mateus-meneses/' target='_blank'>
                     <BsLinkedin size={24}/>
                 </a>
-                <a href="">
+                <a href='https://github.com/mateusmenesesDev' target='_blank'>
                     <AiFillGithub size={24}/>
                 </a>
                 <a href=""></a>
