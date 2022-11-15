@@ -1,68 +1,50 @@
 .portfolio {
-  /* padding: 0 140px; */
   margin-top: 140px;
 }
 
 .portfolio-badges{
   padding: 0 140px;
 }
+
 .portfolio-header {
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
-  margin-bottom: 100px;
+  margin-bottom: 50px; 
   padding: 0 140px;
 }
-
 
 .portfolio-header--filters {
   display: flex;
   gap: 32px;
 }
 
-.portfolio-cards {
-  padding: 0 10px;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill, max(340px));
-  gap: 30px;
-}
-
-
-/* --grid-layout-gap: 10px;
---grid-column-count: 4;
---grid-item--min-width: 100px;
-
-/**
- * Calculated values.
- */
-/* --gap-count: calc(var(--grid-column-count) - 1);
---total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
---grid-item--max-width: calc((100% - var(--total-gap-width)) / var(--grid-column-count)); */
-
-/* display: grid;
-grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
-grid-gap: var(--grid-layout-gap); */ 
-
-
 @media (max-width: 768px) {
   .portfolio {
     padding: 20px;
     margin-top: 70px;
   }
+
   .portfolio-badges{
     padding: 0;
   }
+
   .portfolio-header {
     padding: 0;
     font-size: 24px;
   }
+}
 
-  .portfolio-cards {
-    display: flex;
-    overflow: scroll;
-    justify-content: start;
-    min-width: 100%;
+@media (max-width: 425px) {
+  .portfolio-badges{
+    margin-left: 20px;
   }
-  
+
+  .portfolio-header {
+    margin-left: 20px;
+  }
+
+  .portfolio {
+    padding: 0;
+  }
 }
