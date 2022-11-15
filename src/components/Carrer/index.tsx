@@ -19,7 +19,7 @@ export function Carrer() {
                                     <p>Responsável por coordenar equipe de Assessoria em Mídia Sociais,
                                         utilizando de indicadores estratégicos de marketing e táticos através das métricas de redes sociais.</p>
                                     <div className={style['experiences-box--details']}>
-                                        <p className={style['experiences-box--date']}>1 ano e  3 meses</p>
+                                        <p className={style['experiences-box--date']}>1 ano</p>
                                         <p className={style['experiences-box--date']}>01/01/20 - 31/12/2020</p>
                                     </div>
                                 </div>
@@ -38,8 +38,8 @@ export function Carrer() {
                                 <p>Ministrador das seguintes disciplinas:<br/> Fundamentos em Gestão de T.I;
                                     Segurança da Informação; Arquitetura de Computadores.</p>
                                 <div className={style['experiences-box--details']}>
-                                    <p className={style['experiences-box--date']}>Em execução</p>
-                                    <p className={style['experiences-box--date']}>01/01/21 até hoje</p>
+                                    <p className={style['experiences-box--date']}>6 meses</p>
+                                    <p className={style['experiences-box--date']}>01/03/22 até 01/08/22</p>
                                 </div>
                             </div>
                             <div className={style['experiences-box']}>
@@ -56,7 +56,7 @@ export function Carrer() {
                                     além de retirar impedimentos durante a execução de projetos.</p>
                                 <div className={style['experiences-box--details']}>
                                     <p className={style['experiences-box--date']}>Em execução</p>
-                                    <p className={style['experiences-box--date']}>01/01/21 até hoje</p>
+                                    <p className={style['experiences-box--date']}>01/07/22 até hoje</p>
                                 </div>
                             </div>
                     </div>
