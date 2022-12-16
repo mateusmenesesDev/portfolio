@@ -5,16 +5,17 @@ import { Footer } from './components/Footer';
 import { Menu } from './components/Menu';
 import { Portfolio } from './components/Portfolio';
 import { Techs } from './components/Techs';
-
+// require('dotenv/config');
 function App() {
+  console.log(process.env.API_SECRET);
   return (
-    <div className="App">
-      <Menu/>
-      <About/>
-      <Portfolio/>
-      <Techs/>
-      <Carrer/>
-      <Footer/>
+    <div className='App'>
+      <Menu />
+      <About />
+      <Portfolio />
+      <Techs />
+      <Carrer />
+      <Footer />
     </div>
   );
 }
