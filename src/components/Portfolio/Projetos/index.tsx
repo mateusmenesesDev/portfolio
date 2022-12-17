@@ -13,7 +13,7 @@ export function Projetos({
     <div className={style.projeto}>
       <div className={style['projeto-img']}>
         <img
-          src={`https://raw.githubusercontent.com/mateusmenesesDev/${name}/main/preview/preview2.png`}
+          src={`https://raw.githubusercontent.com/mateusmenesesDev/${name}/main/preview/preview.webp`}
           alt='Imagem do Projeto'
         />
       </div>
