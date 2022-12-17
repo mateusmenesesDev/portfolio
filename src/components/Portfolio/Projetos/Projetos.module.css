@@ -1,21 +1,14 @@
 .projeto {
   width: 90%;
-  height: 100%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .projeto-img {
-  margin-bottom: 10px;
   width: 100%;
-  margin: 0 auto;
 }
 
 .projeto-img img {
   border-radius: 32px;
-  height: 600px;
   width: 100%;
 }
 
@@ -23,7 +16,7 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-top: -30px;
+  margin-top: -120px;
 }
 
 .projeto-buttons a {
@@ -35,11 +28,11 @@
 .projeto-buttons a:active,
 .projeto-buttons a:visited {
   background-color: #003566;
-  color: white
+  color: white;
 }
 
 .projeto-buttons a:hover {
-  background-color: #FFC300;
+  background-color: #ffc300;
   color: black;
 }
 
@@ -67,30 +60,27 @@
   max-width: 500px;
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .projeto {
     width: 100%;
-  }
-  
-  .projeto-details {
-    display: none;
+    height: 320px;
   }
 
-  .projeto-img {
-    margin-bottom: 10px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .projeto-img img {
-    border-radius: 32px;
-    height: 250px;
-    width: 100%;
+  .projeto-details {
+    display: none;
   }
 
   .projeto-buttons a {
     font-size: 14px;
     padding: 10px 10px;
-    margin-top: 15px;
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 810px) {
+  .projeto-buttons a {
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-top: 80px;
   }
 }
