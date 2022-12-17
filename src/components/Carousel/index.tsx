@@ -1,30 +1,31 @@
-import style from "./Carousel.module.css";
-import { IProjetos } from "../../types/types";
-import { Projetos } from "../Portfolio/Projetos";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper";
+import style from './Carousel.module.css';
+import { IProjetos } from '../../types/types';
+import { Projetos } from '../Portfolio/Projetos';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation } from 'swiper';
 
 interface props {
-    projetos: IProjetos [];
+  projetos: IProjetos[];
 }
 
-export function Carousel(props:props) {
-    console.log(props.projetos)
+export function Carousel(props: props) {
   return (
     <Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        navigation={true}
-        pagination={{clickable:true,}}
-        modules={[Navigation]}
-        className={style.mySwiper}
+      spaceBetween={30}
+      effect={'fade'}
+      navigation={true}
+      pagination={{ clickable: true }}
+      modules={[Navigation]}
+      className={style.mySwiper}
     >
-        {props.projetos.map(projeto => (
-            projeto.name.toUpperCase() !== 'MATEUSMENESESDEV' && 
+      {props.projetos.map(
+        (projeto) =>
+          projeto.name.toUpperCase() !== 'MATEUSMENESESDEV' &&
+          projeto.topics.includes('portfolio') && (
             <SwiperSlide className={style.slide}>
               <Projetos
                 homepage={projeto.homepage}
@@ -36,9 +37,8 @@ export function Carousel(props:props) {
                 html_url={projeto.html_url}
               />
             </SwiperSlide>
-          
-        ))}
+          )
+      )}
     </Swiper>
-      
   );
 }
